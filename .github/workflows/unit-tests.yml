@@ -25,6 +25,9 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v2
 
+    - name: Checkout
+      run: echo "hello jenkins"
+
     - name: Set Node.js 12.x
       uses: actions/setup-node@v1
       with:
